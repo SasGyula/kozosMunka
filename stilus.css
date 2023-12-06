@@ -36,8 +36,26 @@ aside{
 article{
     grid-area: a;
 }
+footer p{
+    text-align: center;
+}
 table, td, th {
+    width: 80%;
+    margin: auto;
     border: 1px solid black;
     border-collapse: collapse;
     background-color: aqua;
 }
+<<<<<<< HEAD
+=======
+@media screen and (max-width: 600px) {
+    main {
+        grid-template-areas: 
+            "h"
+            "j"
+            "a"
+            "f"
+      ;
+    }
+  }
+>>>>>>> aded57770ddb16a6182305b01a1bbf21378f495f
