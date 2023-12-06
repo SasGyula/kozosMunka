@@ -2,7 +2,9 @@ body{
     width: 90%;
     max-width: 900px;
     margin: auto;
+    background-color: rgba(0, 255, 255, 0.589);
 }
+
 h1{
     text-align: center;
 }
@@ -21,15 +23,15 @@ main{
     display: grid;
     grid-template-areas:
     "h h h"
-    "a a b"
+    "a a j"
     ;
-
+    background-color: white;
 }
 header{
     grid-area: h;
 }
 aside{
-    grid-area: b;
+    grid-area: j;
 }
 article{
     grid-area: a;
@@ -37,5 +39,19 @@ article{
 table, td, th {
     border: 1px solid black;
     border-collapse: collapse;
+<<<<<<< HEAD
     background-color: aqua;
 }
+=======
+}
+@media screen and (max-width: 400px) {
+    main {
+        grid-area: 
+            "h"
+            "j"
+            "a"
+            "f"
+      ;
+    }
+  }
+>>>>>>> d4b0926cd0ec4b3b55edc3d2a158bc5dbee55b5b
